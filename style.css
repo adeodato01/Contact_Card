@@ -1,0 +1,79 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+body{
+    width: 1008px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inputArea{
+    height: 700px;
+    width: 600px;
+    position: fixed;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+p{
+    font-size: 29px;
+}
+.cards{
+    width: 408px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 633px;
+}
+#first, #last, #desc{
+    text-align: right;
+    margin-bottom: 34px;   
+}
+#first{
+    margin-top: 36px;
+}
+#first input[type=text], #last input[type=text]{
+    width: 391px;
+    height: 79px;
+    text-align: left;
+    font-size: 29px;
+    border: 2px solid black;
+}
+#desc{
+    text-align: left;
+}
+.btn{
+    width: 150px;
+    height: 70px;
+    font-size: 29px;
+    border: 2px solid black;
+}
+textarea{
+    width: 588px;
+    height: 200px;
+    text-align: left;
+    font-size: 29px;
+    vertical-align: top;
+    overflow-wrap: normal;
+    border: 2px solid black;
+}
+h2{
+    font-size: 43px;
+    line-height: 148px;
+}
+.card{
+    width: 400px;
+    height: 230px;
+    text-align: center;
+    border: 4px solid black;
+    margin-top: 27px;
+}
+.hidden{
+    display: none;
+    width: 400px;
+    height: 230px;
+    text-align: center;
+    border: 4px solid black;
+    margin-top: 27px;
+    margin-top: -4px;
+    margin-left: -4px;
+}
